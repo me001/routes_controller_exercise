@@ -198,14 +198,15 @@ Visit this url: [localhost:3000/users](http://localhost:3000/users) and then fin
 
 
 HTTP verb used in this request:
-URL:
-Controller Name:
-Controller Action:
-View File Name:
-Layout File Name:
-Response code of the request:
+URL: http://localhost:3000/users
+Controller Name: users
+Controller Action: index
+View File Name: ./views/users/index.html.erb
+Layout File Name: ./views/layouts/application.html.erb
+Response code of the request: 200 OK
 
 You should also notice a new line or two that we didn't see before, what is it (copy and paste, hint: after User Load) ?
+User Load (1.5ms)  SELECT "users".* FROM "users" 
 
 Why do you think this line is there?
 
