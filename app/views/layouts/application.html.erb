@@ -7,6 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <%= link_to "User List", users_path %>
+
+    <%= link_to "Product List", products_path %>
+
+    <%= params.inspect %>
 
 <%= yield %>
 
